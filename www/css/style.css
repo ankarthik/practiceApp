@@ -1,0 +1,28 @@
+/* ======================================= Side Menu CSS start ====================================== */
+
+.menu{
+    -webkit-transition: transform 200ms ease 0s;
+    transition: transform 200ms ease 0s;
+    -webkit-transform: translate3d(275px, 0px, 0px);
+    transform: translate3d(275px, 0px, 0px);
+    top: 36px !important;
+    position: fixed;
+}
+.swipe {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px) ;
+    border-left: 1px solid rgb(221, 221, 221);
+}
+.custom-icon{
+    padding-right: 10px;
+}
+.menu .list .item{
+    padding: 4px 0 4px 16px !important;
+    font-size: 15px !important;
+    color: #000 !important;
+}
+.menu .list .item a{
+    color: #000 !important;
+}
+
+/* ======================================== Side Menu CSS end ======================================= */
